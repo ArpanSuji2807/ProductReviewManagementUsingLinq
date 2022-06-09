@@ -76,7 +76,7 @@ namespace ProductReviewManagement
             Console.WriteLine($"ProductId,  UserId,  Rating,  Review,  IsLike");
             foreach (var row in result)
             {
-                Console.WriteLine($"{row["ProductId"]},  {row["UserId"]},  {row["Rating"]},  {row["Review"]},  {row["IsLike"]}");
+                Console.WriteLine($"{row["ProductId"]}, {row["UserId"]},  {row["Rating"]},  {row["Review"]},  {row["IsLike"]}");
             }
         }
     }
